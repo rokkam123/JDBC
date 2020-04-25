@@ -1,0 +1,20 @@
+JDBC QUESTIONS:
+==============
+1)what is Class?
+2) What is Difference between Class vs class?
+	ans: class is a key word using this key word we can create class. Class is class in java .Class it can be store other class information.
+3)What forname?what it will doing ? what it will be taken?
+	ans: forname is a static method .forName method required String as parameter . fully qualified name of the mysql Driver.it is going to execute database Registration logic executed.
+4)what is 'com.mysql.jdbc.Driver'? what happend? why?
+ans:it is like a string and it will be loaded into the driverClass, whenever driverclass is loaded static block is excuted  and static blocks contains database registration logic. 
+5)Driver Maneger? what is getconnection?
+ans:Driver Manager Is Class Using this class we can call getConnection Method .inside getConnection Connection Database accessable logic executed .and return connection object.not connection object creating sub class object in the connection interface .
+6)What is prepareStatement?
+ans:Prepare statement is a interaface while using connection reference to cal the prepare statement method it will be return prepare statement interface not object and usning prepare statement we can create querys
+7)What is ExecuteUpdate()?
+ans:using prepare statement reference calling the excute update method and  it will excuted.and it will be return integer.
+class contains :
+=> methods 
+=> properties 
+=> constructors
+=> 
