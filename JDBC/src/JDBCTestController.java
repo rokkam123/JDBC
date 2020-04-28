@@ -15,7 +15,7 @@ public class JDBCTestController {
 			// 5 .Execute query .
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection conn = DriverManager.getConnection(url, username, password);
-			PreparedStatement ps = conn.prepareStatement("insert into student values(2,'tanoj','kumar','tan@gmail.com')");
+			PreparedStatement ps = conn.prepareStatement("update student set last_name='meesala' where id = 1'");
 			int noOfRows = ps.executeUpdate();
 			System.out.println("inserted data :" + noOfRows);
 
